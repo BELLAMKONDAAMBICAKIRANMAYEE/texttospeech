@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 70vh;
+}
+.cardbox{
+    width:40rem;
+    height:20rem;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color:#ebedef ;
+    box-shadow: 31px 31px 61px #c8c9cb,
+               -31px -31px 61px #ffffff;
+}
+
+button{
+   width:50px;
+   height:50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 0;
+   border-radius: 61px;
+   background-color: #ebedef;
+   transform: translateY(-2rem);
+   margin-left: 18rem;
+}
+span{
+    margin-left: 18rem;
+}
